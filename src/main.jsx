@@ -11,23 +11,28 @@ import { createRoot } from 'react-dom/client'
 // import Memorize from './06-memos/Memorize'
 // import { MemoHook } from './06-memos/MemoHook'
 // import { CallbackHook } from './06-memos/CallbackHook'
-import { Padre } from './07-tarea-memo/Padre'
+// import { Padre } from './07-tarea-memo/Padre'
+import { TodoApp } from './08-useReducer/TodoApp'
+
+
+// import './08-useReducer/intro-reducer'
 
 import './index.css'
 
 createRoot(document.getElementById('root')).render(
-  // <StrictMode>
-    // {/* <HooksApp/> */}
-    // {/* <CountarApp/> */}
-    // {/* <CounterCustomHook/> */}
-    // <SimpleForm/>
-    // <FormCustomHook/>
-    // <MultipleCustomHook/>
-    // <FocusScreen/>
-    // <Layout/>
-    // <Memorize/>
-    // <MemoHook/>
-    // <CallbackHook/> 
-    <Padre/>
-  // </StrictMode>
+//   // <StrictMode>
+//     // {/* <HooksApp/> */}
+//     // {/* <CountarApp/> */}
+//     // {/* <CounterCustomHook/> */}
+//     // <SimpleForm/>
+//     // <FormCustomHook/>
+//     // <MultipleCustomHook/>
+//     // <FocusScreen/>
+//     // <Layout/>
+//     // <Memorize/>
+//     // <MemoHook/>
+//     // <CallbackHook/> 
+//     <Padre/>
+       <TodoApp/>
+//   // </StrictMode>
 )
